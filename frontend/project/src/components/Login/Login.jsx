@@ -4,7 +4,7 @@ import axios from "axios";
 import Navbar from "../Home/Navbar/Navbar";
 import styles from "./Login.module.css";
 
-export default function Login(props) {
+export default function Login() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
