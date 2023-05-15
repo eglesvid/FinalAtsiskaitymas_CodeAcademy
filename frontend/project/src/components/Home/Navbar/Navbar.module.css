@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  padding: 50px 0;
+  font-size: 2vw;
+  letter-spacing: 1px;
+  font-family: "Syncopate", sans-serif;
+  color: var(--navbar-grey-color);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar button {
+  padding: 0 0.5rem;
+  font-size: 75%;
+  background-color: var(--backgroundColor);
+  color: var(--main-light-purple-color);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navbar button:hover {
+  background-color: var(--main-light-purple-color);
+  color: var(--white-color);
+}

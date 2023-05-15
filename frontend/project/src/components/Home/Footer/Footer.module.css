@@ -1,0 +1,26 @@
+.footer {
+  text-align: center;
+  padding: 180px 0 0 0;
+}
+
+.footer p {
+  font-size: smaller;
+  font-weight: 300;
+}
+
+.location {
+  font-size: 18vw;
+  text-transform: uppercase;
+  font-family: "Bodoni Moda", serif;
+  margin: 0;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2%;
+  font-size: 24px;
+  margin-top: 110px;
+  cursor: pointer;
+}

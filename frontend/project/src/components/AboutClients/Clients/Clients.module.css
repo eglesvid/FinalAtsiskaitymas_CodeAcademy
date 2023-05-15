@@ -1,0 +1,70 @@
+.mainContainer {
+  padding: 0 5%;
+}
+
+.clientsTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.clientsTable th,
+.clientsTable td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.clientsTable th {
+  background-color: var(--clients-table-th-purple-color);
+  font-weight: bold;
+}
+
+.clientsTable td:last-child {
+  text-align: right;
+}
+
+.clientsTable tr:hover {
+  background-color: var(--clients-table-tr-hover-color);
+}
+
+.clientsTable button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: var(--button-grey-color);
+  color: var(--white-color);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.clientsTable button:hover {
+  background-color: var(--main-light-purple-color);
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.clientsTable button:focus {
+  outline: none;
+}
+
+.clientsTable button:active {
+  transform: translateY(0);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.registerLink {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.5rem;
+  background-color: var(--main-light-purple-color);
+  color: var(--white-color);
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.registerLink:hover {
+  background-color: var(--main-darker-purple-color);
+}
